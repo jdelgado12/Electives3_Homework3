@@ -12,6 +12,7 @@
         If saveFile.ShowDialog() = DialogResult.OK Then
             IO.File.WriteAllText(saveFile.FileName, displayBox.Text)
         End If
+
     End Sub
 
     Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles displayBox.TextChanged
