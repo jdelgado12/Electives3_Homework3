@@ -89,29 +89,32 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(40, 230)
+        Me.Button1.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(41, 223)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(103, 42)
         Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Text"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(169, 230)
+        Me.Button2.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Location = New System.Drawing.Point(170, 223)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(103, 42)
         Me.Button2.TabIndex = 7
-        Me.Button2.Text = "Button2"
+        Me.Button2.Text = "XML"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(299, 230)
+        Me.Button3.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Location = New System.Drawing.Point(300, 223)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(103, 42)
         Me.Button3.TabIndex = 8
-        Me.Button3.Text = "Button3"
+        Me.Button3.Text = "JSON"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Form1
@@ -129,7 +132,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Homework 3"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
